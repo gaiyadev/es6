@@ -10,4 +10,14 @@ person['name'] = 'Jude';
 
 //array
 let selectedColor = ['red', 'blue'];
-console.log(selectedColor);
+selectedColor[2] = 2;
+
+
+//..Function
+function greeting(name, lastName) {
+    console.log('hello mallam' + name + " "+ lastName);
+
+}
+greeting('Obed', "Gaiya");
+greeting('Jude');
+
